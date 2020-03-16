@@ -58,7 +58,7 @@ def saveToFile(name, charpters):
 
 
 def main():
-    url = "http://www."  # 改url链接
+    url = ""  # 改url链接
     html = getHTMLText(url)
     bookName = getBookName(html)
     charpterUrls = getCharpterUrls(html)
